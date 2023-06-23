@@ -64,9 +64,9 @@ main{
   transition: 0.5s;
   color: #f15836;
 }
-.cabecalho_info:hover{
+.headerIndex:hover  {
   position: relative;
-  padding: 26px 0 14px 0;
+  padding: 26px 0 28px 0;
   margin: 0px;
   border-bottom: 4px solid #fff;
 }
