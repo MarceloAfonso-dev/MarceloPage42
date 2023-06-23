@@ -13,6 +13,7 @@ body {
   background-color: #ffff;
   box-sizing: border-box;
 }
+/* header */
 .cabecalho {
   padding-bottom: 5px 5px;
   top: 0px;
@@ -70,3 +71,4 @@ main{
   margin: 0px;
   border-bottom: 4px solid #fff;
 }
+/* imagens banner */
