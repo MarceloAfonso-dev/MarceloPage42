@@ -1,0 +1,53 @@
+@font-face{
+    font-family: Arial Rounded MT Bold;
+    font-weight: 800;
+    src: url(../../src/assets/font/arial-rounded-mt-bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1366px;
+  height: 1425px;
+  background-color: #ffff;
+  box-sizing: border-box;
+}
+.cabecalho {
+  padding-bottom: 5px 5px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  position: relative;
+  width: 100%;
+  background-color: #f15836;
+  height: 80px;
+
+}
+main{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center
+}
+.logo {
+  padding: 16px 0 0 210px;
+  margin: 0 26px 0 0;
+}
+.cabecalho_info {          
+  margin: 16px 0 0 0; 
+  outline: none;
+  border: none;
+  text-decoration: none;
+  color: #ffff;
+  font: 19px Arial Rounded MT Bold;
+  padding: 0px 24px;
+}
+.cabecalho_contato{
+    margin: 16px 0 0 0; 
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #ffff;
+    font: 19px Arial Rounded MT Bold;
+    padding: 0px 24px;
+}
