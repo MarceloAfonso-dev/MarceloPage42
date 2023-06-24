@@ -9,20 +9,20 @@
 }
 body {
   width: max-content;
-  height: 1425px;
+  height: 89.063rem;
   background-color: #ffff;
   box-sizing: border-box;
 }
 /* header */
 .cabecalho {
-  padding-bottom: 5px 5px;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  padding-bottom: 0.313rem 0.313rem;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
   position: relative;
   width: 100%;
   background-color: #f15836;
-  height: 80px;
+  height: 5rem;
 
 }
 main{
@@ -32,32 +32,32 @@ main{
   height: 100%;
 }
 .logo {
-  padding: 16px 0 0 15%;
-  margin: 0 26px 14px 0;
+  padding: 1rem 0 0 15%;
+  margin: 0 1.625rem 0.875rem 0;
 }
 .cabecalho_info {         
-  margin: 16px 0 0 0; 
+  margin: 1rem 0 0 0; 
   outline: none;
   border: none;
   text-decoration: none;
   color: #ffff;
-  font: 19px Arial Rounded MT Bold;
-  padding: 10px 24px 24px 24px;
+  font: 1.188rem Arial Rounded MT Bold;
+  padding: 0.625rem 1.5rem 1.5rem 1.5rem;
 }
 .alinhamento_contato{
-  padding: 16px 0 14px 26%;
+  padding: 1rem 0 0.875rem 26%;
 }
 .cabecalho_contato{
-    margin: 16px 0 0 0; 
+    margin: 1rem 0 0 0; 
     outline: none;
     border: none;
     text-decoration: none;
     color: #ffff;
-    font: 19px Arial Rounded MT Bold;
-    padding: 5px 24px;
+    font: 1.188rem Arial Rounded MT Bold;
+    padding: 0.313rem 1.5rem;
 
     border-style: solid;
-    border-width: 2px;
+    border-width: 0.125rem;
     border-color: #ffff;
 }
 .cabecalho_contato:hover{
@@ -67,8 +67,8 @@ main{
 }
 .headerIndex:hover  {
   position: relative;
-  padding: 26px 0 28px 0;
-  margin: 0px;
-  border-bottom: 4px solid #fff;
+  padding: 1.625rem 0 1.75rem 0;
+  margin: 0rem;
+  border-bottom: 0.25rem solid #fff;
 }
 /* imagens banner */
