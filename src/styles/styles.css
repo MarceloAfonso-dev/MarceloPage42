@@ -8,7 +8,7 @@
   padding: 0;
 }
 body {
-  width: max-content;
+  width: auto;
   height: 89.063rem;
   background-color: #ffff;
   box-sizing: border-box;
