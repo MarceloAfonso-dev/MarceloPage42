@@ -32,7 +32,7 @@ main{
   height: 100%;
 }
 .logo {
-  padding: 1rem 0 0 15%;
+  padding: 1rem 0 0 13%;
   margin: 0 1.625rem 0.875rem 0;
 }
 .cabecalho_info {         
@@ -45,7 +45,9 @@ main{
   padding: 0.625rem 1.5rem 1.5rem 1.5rem;
 }
 .alinhamento_contato{
-  padding: 1rem 0 0.875rem 26%;
+  margin-left: auto; 
+  margin-right: 0;
+  padding: 1rem 13% 0.875rem 0;
 }
 .cabecalho_contato{
     margin: 1rem 0 0 0; 
@@ -71,4 +73,12 @@ main{
   margin: 0rem;
   border-bottom: 0.25rem solid #fff;
 }
+
 /* imagens banner */
+.selected{
+  width: 100%;
+}
+.slider{
+  display: flex;
+  box-sizing: border-box;
+}
