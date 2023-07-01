@@ -78,7 +78,30 @@ main{
 .selected{
   width: 100%;
 }
-.slider{
+
+#slider {
   display: flex;
   box-sizing: border-box;
+  width: 100%;
+  height: 55%;
+  
+
+  position: relative;
+}
+
+#slider img{
+  opacity: 0;
+
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: opacity 800ms;
+}
+
+#slider img.selected { 
+  opacity: 1;
 }
