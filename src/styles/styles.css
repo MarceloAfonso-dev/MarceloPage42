@@ -138,3 +138,9 @@ main {
   border-radius: 0.2rem;
   text-decoration: none;
 }
+
+.banner-button:hover{
+  background-color: #7a7a7abf;
+  transition: 0.5s;
+  color: #ffff;
+}
