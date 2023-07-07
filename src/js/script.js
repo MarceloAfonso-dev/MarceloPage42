@@ -1,28 +1,11 @@
-let time = 5000,
-    currentImageIndex = 0,
-    images = document
-                .querySelectorAll("main img")
-    max = images.length;
+var bannerItems = document.querySelectorAll(".banner-item");
+var currentIndex = 0;
 
-function nextImage() {
-
-    images[currentImageIndex]
-        .classList.remove("selected")
-
-    currentImageIndex++
-
-    if(currentImageIndex >= max)
-        currentImageIndex = 0
-
-    images[currentImageIndex]
-        .classList.add("selected")
+function changeBannerItem() {
+  bannerItems[currentIndex].classList.remove("active");
+  currentIndex = (currentIndex + 1) % bannerItems.length;
+  bannerItems[currentIndex].classList.add("active");
 }
 
-function start() {
-    setInterval(() => {
-        // troca de image
-        nextImage()
-    }, time)
-}
-
-window.addEventListener("load", start)
+// Chame a função changeBannerItem a cada 3 segundos (ajuste o intervalo conforme necessário)
+setInterval(changeBannerItem, 3000);
