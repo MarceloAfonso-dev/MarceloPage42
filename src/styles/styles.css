@@ -123,14 +123,34 @@ main {
   object-fit: cover; /* Ajusta a imagem para preencher o contêiner */
 }
 
+.banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 60%;
+  padding: 0rem 0rem 0rem 1rem;
+  left: 24%;
+}
+
+.banner-title {
+  margin: 16rem 0 16rem 28rem;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: #ffff;
+  font: 2.4rem Arial Rounded MT Bold;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  width: 24rem ;
+}
+
 .banner-button {
   position: absolute;
-  top: 72%;
-  left: 25%;
+  top: 63%;
+  left: 48%;
   transform: translate(-50%, -50%);
   display: inline-block;
-  padding: 10px;
-  font: 1.4rem Arial Rounded MT Bold;
+  font: 1.2rem Arial Rounded MT Bold;
   color: #fff;
   background-color: #363636BF;
   padding: 0.6rem 0;
